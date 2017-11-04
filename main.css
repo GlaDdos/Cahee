@@ -1,4 +1,5 @@
 /* navigation bar */
+
 .navbar.navbar-default,
 .navbar.navbar-fixed-top{
   margin-top: 30px;
@@ -7,6 +8,21 @@
   background-color: rgba(255, 255, 255, 0.5);
   transition: margin 0.8s;
   -webkit-transition: margin  0.8s;
+}
+
+.navbar-nav  > li > a {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0 15px 10px 15px;
+}
+
+.navbar-collapse.collapse.in {
+  background-color: #fff;
+}
+
+.navbar-collapse.collapse.in ul > li > a {
+  padding: 10px 15px;
+  margin: 0;
 }
 
 .navbar-collapse.collapse.in .active {
@@ -20,7 +36,7 @@
 }
 
 .navbar-collapse.collapsing a:after,
-.navbar-collapse.collapseing a:hover:after,
+.navbar-collapse.collapsing a:hover:after,
 .navbar-collapse.collapse.in a:after,
 .navbar-collapse.collapse.in a:hover:after {
   display: none;
@@ -76,7 +92,7 @@
 
 #home > .container {
   background-image: url('./img/home_bg.jpg');
-  background-position: 60% 100%;
+  background-position: top;
   background-repeat: no-repeat;
   height: 100vh;
 }
