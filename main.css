@@ -232,19 +232,53 @@ button.nm-button:focus {
   text-align: center;
 }
 
-button.gallery-btn {
+button.gl-button {
   background-color: #5585a2;
 }
 
-button.gallery-btn:hover {
+button.gl-button:hover {
   background-color: #446D85;
 }
 
-button.gallery-btn:focus {
+button.gl-button:focus {
   outline-color: #2E4A5A;
 }
 
 #gallery .row:nth-last-child(1){
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+#subscribe {
+  background-color: #fff;
+  background-image: url("./img/sub_background.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 500px;
+  padding-top: 80px;
+}
+
+#subscribe input {
+  width: 100%;
+  margin-top: 10px;
+  line-height: 36px;
+  border-color: #031803;
+  padding-left: 10px;
+}
+
+#subscribe input:focus {
+  outline-color: #96b92c;
+}
+
+button.sb-button {
+  background-color: #96b92c;
+  margin-top: 10px;
+}
+
+button.sb-button:hover {
+  background-color: #809C25;
+}
+
+button.sb-button:focus {
+  outline-color: #657A1D;
 }
