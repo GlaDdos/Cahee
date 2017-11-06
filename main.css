@@ -110,7 +110,7 @@ p {
   height: 100vh;
 }
 
-button {
+button.nm-button {
   border: none;
   width: 175px;
   background-color: #fe5f33;
@@ -121,18 +121,18 @@ button {
   box-shadow: 1px 2px 5px #9c9c9c;
 }
 
-button:hover {
+button.nm-button:hover {
   background-color: #DD542E;
   -webkit-transition: background-color .2s linear;
   -moz-transition: background-color .2s linear;
   transition: background-color .2s linear;
 }
 
-#home button:active {
+button.nm-button:active {
   background-color: #EC5930;
 }
 
-#home button:focus {
+button.nm-button:focus {
   outline-color: #B44526;
 }
 
@@ -232,12 +232,16 @@ button:hover {
   text-align: center;
 }
 
-#gallery button {
+button.gallery-btn {
   background-color: #5585a2;
 }
 
-#gallery button:hover {
+button.gallery-btn:hover {
   background-color: #446D85;
+}
+
+button.gallery-btn:focus {
+  outline-color: #2E4A5A;
 }
 
 #gallery .row:nth-last-child(1){
