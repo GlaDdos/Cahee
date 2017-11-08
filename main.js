@@ -44,5 +44,25 @@ $(document).ready(function(){
 
   $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { 
     $('.navbar-toggle:visible').click(); 
-}); 
+  });
+  
+
+  //closing hamburger menu before resizing
+  let collapsable = false;
+
+  $(".collapse").on('shown.bs.collapse', function(){
+    //bootstrap event showing collapsable
+    collapsable = true;
+  });
+
+  $(".collapse").on('hide.bs.collapse', function(){
+    collapsable = false;
+  });
+
+  $(window).resize(function(){
+    if(collapsable){
+      $('.collapse').collapse('hide');
+      collapsable = false;
+    }
+  });
 })
