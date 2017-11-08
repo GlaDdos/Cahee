@@ -40,5 +40,9 @@ $(document).ready(function(){
   $(".nav li").on("click", function() {
     $(".nav li").removeClass("active");
     $(this).addClass("active");
-  })
+  });
+
+  $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { 
+    $('.navbar-toggle:visible').click(); 
+}); 
 })
