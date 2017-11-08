@@ -36,4 +36,9 @@ $(document).ready(function(){
   window.onscroll = function(e) {
     offSetManager();
   }
+
+  $(".nav li").on("click", function() {
+    $(".nav li").removeClass("active");
+    $(this).addClass("active");
+  })
 })
