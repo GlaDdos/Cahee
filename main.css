@@ -422,3 +422,14 @@ textarea:focus {
   outline-color: #008F8C;
   font-weight: 700;
 }
+
+footer {
+  padding: 10px 0;
+  min-height: 50px;
+  background-color: #262626;
+  color: #7b7b7a;
+}
+
+footer strong.love {
+  color: #fc2c57;
+}
