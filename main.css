@@ -105,18 +105,18 @@ p {
   background-color: #fe5f33;
 }
 
-#home {
+.home {
   background-color: #fff;
 }
 
-#home > .container {
+.home > .container {
   background-image: url('./img/home_bg.jpg');
   background-position: top;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
-button.nm-button {
+.nm-button {
   border: none;
   width: 175px;
   background-color: #fe5f33;
@@ -127,38 +127,38 @@ button.nm-button {
   box-shadow: 1px 2px 5px #9c9c9c;
 }
 
-button.nm-button:hover {
+.nm-button:hover {
   background-color: #DD542E;
   -webkit-transition: background-color .2s linear;
   -moz-transition: background-color .2s linear;
   transition: background-color .2s linear;
 }
 
-button.nm-button:active {
+.nm-button:active {
   background-color: #EC5930;
 }
 
-button.nm-button:focus {
+.nm-button:focus {
   outline-color: #B44526;
 }
 
-#about {
+.about {
   background-color: #00b6b7;
   color: #fff;
   padding-top: 30px;
 }
 
-#about img {
+.about img {
   align-self: center;
 }
 
-#services {
+.services {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #70c0ff;
 }
 
-#services h1 {
+.services h1 {
   position: absolute;
   font-size: 72px;
   top: 35%;
@@ -190,10 +190,6 @@ button.nm-button:focus {
   align-self: center;
 }
 
-.service-card-left > p {
-  text-align: center;
-}
-
 .service-card-right{
   text-align: center;
   align-self: center;
@@ -219,31 +215,31 @@ button.nm-button:focus {
   transform: translateY(-50%);
 }
 
-#gallery {
+.gallery {
   background-color: #ffe92f;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-#gallery img {
+.gallery img {
   margin-top: 30px;
   box-shadow: 1px 2px 5px #9c9c9c;
 }
 
-button.gl-button {
+.gl-button {
   margin-top: 30px;
   background-color: #5585a2;
 }
 
-button.gl-button:hover {
+.gl-button:hover {
   background-color: #446D85;
 }
 
-button.gl-button:focus {
+.gl-button:focus {
   outline-color: #2E4A5A;
 }
 
-#subscribe {
+.subscribe {
   background-color: #fff;
   background-image: url("./img/sub_background.jpg");
   background-repeat: no-repeat;
@@ -252,7 +248,7 @@ button.gl-button:focus {
   padding-top: 80px;
 }
 
-#subscribe input {
+.subscribe input {
   width: 100%;
   margin-top: 10px;
   line-height: 36px;
@@ -260,44 +256,44 @@ button.gl-button:focus {
   padding-left: 10px;
 }
 
-#subscribe input:focus {
+.subscribe input:focus {
   outline-color: #96b92c;
 }
 
-button.sb-button {
+.sb-button {
   background-color: #96b92c;
   margin-top: 10px;
 }
 
-button.sb-button:hover {
+.sb-button:hover {
   background-color: #809C25;
 }
 
-button.sb-button:focus {
+.sb-button:focus {
   outline-color: #657A1D;
 }
 
-#blog {
+.blog {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #b07cf7;
   color: white;
 }
 
-button.bl-button {
+.bl-button {
   background-color: #f82c3c;
   margin-top: 10px;
 }
 
-button.bl-button:focus {
+.bl-button:focus {
   outline-color: #AF1D29;
 }
 
-button.bl-button:hover {
+.bl-button:hover {
   background-color: #B62233;
 }
 
-button.bl-button:active {
+.bl-button:active {
   background-color: #961C26;
 }
 
@@ -364,13 +360,17 @@ button.bl-button:active {
   z-index: 2;
 }
 
-#contact {
+.contact {
   background-image: url('./img/contact_bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 90px;
+}
+
+.contact p {
+  margin: 0;
 }
 
 textarea.blue,
@@ -437,6 +437,6 @@ footer {
   color: #7b7b7a;
 }
 
-footer strong.love {
+.color-pink {
   color: #fc2c57;
 }
