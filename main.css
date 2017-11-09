@@ -351,6 +351,11 @@ button.bl-button:active {
   font-size: 18px;
 }
 
+.thumb-post-desc p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
 .thumb-post-desc {
   position: absolute;
   bottom: 0;
